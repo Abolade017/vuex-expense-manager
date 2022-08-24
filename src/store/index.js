@@ -37,7 +37,7 @@ export default createStore({
         name: state.newName,
         amount: state.newAmount,
         completed: state.newCompleted
-      });
+    });
     },
     showModalbox(state) {
       state.isModalboxVisible = true;
